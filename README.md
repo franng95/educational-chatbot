@@ -40,8 +40,9 @@ The chatbot is designed as a small intelligent tutoring system. It matches stude
 educational-chatbot/
 ├── chatbot.py          # Main chatbot implementation
 ├── app.py              # Flask web server
-├── test_chatbot.py     # Automated test suite
+├── test.py             # Automated test suite
 ├── requirements.txt    # Python dependencies
+├── templates/          # Flask HTML templates
 ├── data/
 │   └── qa_pairs.json   # Curated educational Q&A data
 └── logs/               # Evaluation logs and test results
@@ -66,7 +67,7 @@ Then open the local Flask URL shown in the terminal.
 ## Run Tests
 
 ```bash
-python test_chatbot.py
+python test.py
 ```
 
 ## What I Learned
