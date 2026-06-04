@@ -1,0 +1,50 @@
+{
+  "test_date": "2025-12-01T13:38:32.905995",
+  "total_tests": 108,
+  "passed": 107,
+  "failed": 1,
+  "pass_rate": 99.07407407407408,
+  "avg_confidence": 0.8108333333333333,
+  "categories": {
+    "Greetings": {
+      "total": 11,
+      "passed": 11
+    },
+    "NLP": {
+      "total": 18,
+      "passed": 17
+    },
+    "ITS": {
+      "total": 8,
+      "passed": 8
+    },
+    "Tools": {
+      "total": 10,
+      "passed": 10
+    },
+    "Course": {
+      "total": 11,
+      "passed": 11
+    },
+    "Ethics": {
+      "total": 12,
+      "passed": 12
+    },
+    "Advanced": {
+      "total": 12,
+      "passed": 12
+    },
+    "Mechanics": {
+      "total": 9,
+      "passed": 9
+    },
+    "Abbreviations": {
+      "total": 11,
+      "passed": 11
+    },
+    "Edge Cases": {
+      "total": 6,
+      "passed": 6
+    }
+  }
+}

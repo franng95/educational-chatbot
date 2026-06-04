@@ -1,0 +1,292 @@
+[
+  {
+    "question": "what is natural language processing nlp field branch area definition",
+    "answer": "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and generate human language. It combines linguistics, computer science, and machine learning to enable machines to process text and speech.",
+    "topic": "NLP Basics"
+  },
+  {
+    "question": "what is tokenization tokenize tokens splitting breaking text process step",
+    "answer": "Tokenization is the process of breaking text into smaller units called tokens (usually words or subwords). It's the first step in NLP processing. For example, 'Hello world!' becomes ['Hello', 'world', '!'].",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "explain tokenization process how does it work breaking text words",
+    "answer": "Tokenization is the process of breaking text into smaller units called tokens (usually words or subwords). It's the first step in NLP processing. For example, 'Hello world!' becomes ['Hello', 'world', '!'].",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "how does semantic similarity work measure compare matching calculation",
+    "answer": "Semantic similarity measures how similar two pieces of text are in meaning (not just words). It uses word embeddings (vector representations) and calculates cosine similarity between vectors. Values range from 0 (completely different) to 1 (identical meaning).",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "explain semantic similarity how it works meaning comparison text",
+    "answer": "Semantic similarity measures how similar two pieces of text are in meaning (not just words). It uses word embeddings (vector representations) and calculates cosine similarity between vectors. Values range from 0 (completely different) to 1 (identical meaning).",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what is cosine similarity formula calculation measure angle distance",
+    "answer": "Cosine similarity measures the angle between two vectors in vector space. In NLP, it compares text embeddings. The formula is: cosine(A,B) = (A·B) / (||A|| × ||B||). Values close to 1 mean high similarity, close to 0 means low similarity.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what are word embeddings vectors representations numerical dense",
+    "answer": "Word embeddings are numerical representations of words in a high-dimensional vector space. Similar words have similar vectors. spaCy uses pre-trained embeddings (like Word2Vec or GloVe) where each word is represented as a 300-dimension vector.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what is lemmatization lemma stemming root word base form normalization",
+    "answer": "Lemmatization reduces words to their base or dictionary form (lemma). For example: 'running', 'ran', 'runs' all become 'run'. It's more sophisticated than stemming because it considers context and produces valid words.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what is part of speech tagging pos tag grammar linguistic categories",
+    "answer": "Part-of-Speech (POS) tagging assigns grammatical categories (noun, verb, adjective, etc.) to each word in text. spaCy automatically performs POS tagging, which helps understand sentence structure and meaning.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what is named entity recognition ner entities extraction identification",
+    "answer": "Named Entity Recognition (NER) identifies and classifies named entities in text (people, organizations, locations, dates, etc.). For example, in 'Steve Jobs founded Apple', it identifies 'Steve Jobs' as a person and 'Apple' as an organization.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "what is spacy library framework tool package module",
+    "answer": "spaCy is an open-source Python library for advanced NLP. It provides fast and efficient tools for tokenization, part-of-speech tagging, named entity recognition, semantic similarity, and dependency parsing. It's widely used in production systems.",
+    "topic": "Tools"
+  },
+  {
+    "question": "what is machine learning ml algorithms training models patterns supervised",
+    "answer": "Machine Learning (ML) is a subset of AI where systems learn from data without being explicitly programmed. It uses algorithms to identify patterns and make predictions. NLP heavily relies on ML techniques like neural networks and transformers.",
+    "topic": "AI Basics"
+  },
+  {
+    "question": "what is artificial intelligence ai definition meaning simulation cognitive",
+    "answer": "Artificial Intelligence (AI) is the simulation of human intelligence by machines. It includes learning, reasoning, problem-solving, perception, and language understanding. This course (COMP1827) covers fundamental AI concepts, search algorithms, and applications.",
+    "topic": "AI Basics"
+  },
+  {
+    "question": "what is deep learning neural networks dl layers backpropagation",
+    "answer": "Deep Learning is a subset of ML using artificial neural networks with multiple layers. It's particularly effective for NLP tasks like language translation, text generation, and sentiment analysis. Models like GPT and BERT use deep learning.",
+    "topic": "AI Basics"
+  },
+  {
+    "question": "what is python programming language code scripting interpreted high-level",
+    "answer": "Python is a high-level, interpreted programming language widely used in AI, machine learning, and NLP. It's popular for its readability, extensive libraries (like spaCy, NLTK, TensorFlow, scikit-learn), and strong community support.",
+    "topic": "Programming"
+  },
+  {
+    "question": "what is flask web framework application server micro lightweight wsgi",
+    "answer": "Flask is a lightweight Python web framework used to build web applications and APIs. It's simple, flexible, and perfect for creating chatbot interfaces. This chatbot uses Flask to handle web requests and serve the user interface.",
+    "topic": "Tools"
+  },
+  {
+    "question": "what is json data format storage structure javascript object notation",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data format for storing and exchanging structured data. This chatbot's knowledge base is stored in JSON format, making it easy to read, update, and maintain.",
+    "topic": "Programming"
+  },
+  {
+    "question": "what is an api application programming interface endpoint rest web service",
+    "answer": "An API (Application Programming Interface) is a set of rules that allows different software applications to communicate with each other. This chatbot uses Flask to create API endpoints (/ask, /health) that handle user queries and return JSON responses.",
+    "topic": "Programming"
+  },
+  {
+    "question": "what is intelligent tutoring system its personalized tutor adaptive learning educational",
+    "answer": "An Intelligent Tutoring System (ITS) is an AI-powered educational system that provides personalized instruction and feedback to learners. It adapts to individual student needs, tracks progress, and provides customized learning paths similar to one-on-one human tutoring.",
+    "topic": "ITS"
+  },
+  {
+    "question": "components of its architecture structure parts modules domain student pedagogical interface",
+    "answer": "ITS typically have four components: 1) Domain Model (subject knowledge to teach), 2) Student Model (tracks learner progress and understanding), 3) Pedagogical Model (teaching strategies and methods), and 4) User Interface (interaction layer).",
+    "topic": "ITS"
+  },
+  {
+    "question": "nlp in education teaching learning schools classroom automated scoring assessment",
+    "answer": "NLP in education enables automated essay scoring, intelligent tutoring systems, language learning apps, chatbots for student support, personalized content recommendation, and plagiarism detection. It helps scale educational support while maintaining quality.",
+    "topic": "ITS"
+  },
+  {
+    "question": "personalized learning adaptive education customized individualized student-centered tailored",
+    "answer": "Personalized learning uses AI to adapt educational content, pace, and teaching methods to individual student needs, abilities, learning styles, and preferences. It's more effective than one-size-fits-all approaches and is a key benefit of ITS.",
+    "topic": "ITS"
+  },
+  {
+    "question": "what is rag retrieval augmented generation grounding context sources documents",
+    "answer": "RAG (Retrieval-Augmented Generation) combines information retrieval with text generation. It first retrieves relevant documents from a knowledge base, then uses them as context for generating responses. This improves accuracy by grounding answers in actual source material.",
+    "topic": "Advanced NLP"
+  },
+  {
+    "question": "what is large language model llm foundation model pre-trained gpt bert claude",
+    "answer": "Large Language Models (LLMs) are AI models trained on massive text datasets to understand and generate human language. Examples include GPT (Generative Pre-trained Transformer), BERT, Claude, and Llama. They power modern chatbots and AI assistants.",
+    "topic": "Advanced NLP"
+  },
+  {
+    "question": "what is gpt bert transformer model architecture attention mechanism encoder decoder",
+    "answer": "GPT and BERT are transformer-based language models. GPT (Generative Pre-trained Transformer) is designed for text generation, while BERT (Bidirectional Encoder Representations from Transformers) excels at understanding context. Both revolutionized NLP.",
+    "topic": "Advanced NLP"
+  },
+  {
+    "question": "what is transformer attention mechanism self-attention model neural network architecture",
+    "answer": "Transformers are neural network architectures that use self-attention mechanisms to process sequential data. They can handle long-range dependencies better than traditional RNNs and are the foundation for modern LLMs like GPT and BERT.",
+    "topic": "Advanced NLP"
+  },
+  {
+    "question": "explain transformers model architecture how they work attention neural networks",
+    "answer": "Transformers are neural network architectures that use self-attention mechanisms to process sequential data. They can handle long-range dependencies better than traditional RNNs and are the foundation for modern LLMs like GPT and BERT.",
+    "topic": "Advanced NLP"
+  },
+  {
+    "question": "how was this chatbot created built developed made constructed implemented designed",
+    "answer": "This chatbot was built using Python with spaCy for NLP (semantic similarity matching) and Flask for the web interface. It uses a hybrid approach: exact pattern matching for short phrases (greetings, farewells) and semantic similarity for complex questions.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "how does this chatbot work function operate process mechanism algorithm system",
+    "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "how do you work what is your mechanism process algorithm matching similarity",
+    "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "test me quiz me ask questions assess evaluate examine knowledge understanding",
+    "answer": "I'm designed to answer your questions rather than quiz you! However, I can explain concepts so you can test yourself. Try asking me to explain: NLP concepts, ITS components, semantic similarity, tokenization, word embeddings, or AI ethics.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "limitations problems issues challenges weaknesses drawbacks flaws restrictions",
+    "answer": "My limitations: 1) Limited to my knowledge base (can't browse internet), 2) May misunderstand ambiguous questions, 3) Threshold-based matching can miss nuanced queries, 4) No memory of past conversations, 5) Can't handle complex multi-part questions well.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "confidence score accuracy reliability threshold matching percentage certainty",
+    "answer": "Confidence scores show how similar your question is to questions in my knowledge base (0-100%). Above 60% is considered a good match. Higher scores mean I'm more confident the answer is relevant. Exact pattern matches show 100% confidence.",
+    "topic": "Chatbot Info"
+  },
+  {
+    "question": "when is project deadline due date submission december first third presentation report",
+    "answer": "For COMP1827 group coursework: Group presentation is due December 1, 2025, and individual report (1,500 words) is due December 3, 2025. The project focuses on AI in Personalized Education.",
+    "topic": "Course Info"
+  },
+  {
+    "question": "when is deadline due date submission december dates coursework assignment",
+    "answer": "December 1, 2025 for group presentation, December 3, 2025 for individual report (1,500 words).",
+    "topic": "Course Info"
+  },
+  {
+    "question": "what is comp1827 module course about subject introduction artificial intelligence fundamentals",
+    "answer": "COMP1827 is 'Introduction to Artificial Intelligence'. This module covers fundamental AI concepts, search algorithms, knowledge representation, machine learning basics, and AI applications. Your group project focuses on AI in Personalized Education.",
+    "topic": "Course Info"
+  },
+  {
+    "question": "tell me about course comp1827 module class subject syllabus topics",
+    "answer": "COMP1827 (Introduction to Artificial Intelligence) covers: AI fundamentals, search algorithms, knowledge representation, machine learning, and practical applications. Your coursework involves building an AI application for personalized education.",
+    "topic": "Course Info"
+  },
+  {
+    "question": "what should report include requirements content structure format sections word count",
+    "answer": "Your 1,500-word report should include: 1) Understanding Problem Domain (30%), 2) Development & Implementation (50%), 3) LSEPI considerations (ethics, bias, privacy), and 4) Critical Analysis (10%). Cite academic sources using Harvard referencing!",
+    "topic": "Course Info"
+  },
+  {
+    "question": "how many words report length requirement count limit maximum minimum",
+    "answer": "The individual report should be 1,500 words. This doesn't include references or appendices. Focus on quality over quantity - be clear, concise, and demonstrate critical thinking in your analysis.",
+    "topic": "Course Info"
+  },
+  {
+    "question": "group presentation requirements format slides demo live demonstration december",
+    "answer": "The group presentation (December 1, 2025) should cover your AI in Personalized Education project. Include: problem context, your approach, live demo, results/evaluation, and LSEPI considerations. Prepare for Q&A!",
+    "topic": "Course Info"
+  },
+  {
+    "question": "harvard referencing citation format style bibliography author year sources",
+    "answer": "Harvard referencing format: Author(s) (Year) 'Title', Journal/Source, Volume(Issue), pages. Example: Singh, S.U. and Namin, A.S. (2025) 'A survey on chatbots and large language models', Natural Language Processing Journal, 10, 100128.",
+    "topic": "Course Info"
+  },
+  {
+    "question": "what is lsepi ethical legal social professional issues concerns considerations",
+    "answer": "LSEPI stands for Legal, Social, Ethical, and Professional Issues. For educational AI: Legal (data protection, copyright), Social (digital divide, access), Ethical (bias, fairness, privacy), Professional (responsibility, transparency, accountability).",
+    "topic": "Ethics"
+  },
+  {
+    "question": "what are ethical concerns with ai education problems risks dangers implications",
+    "answer": "Key ethical concerns in AI education: algorithmic bias affecting certain student groups unfairly, privacy of student data and learning analytics, lack of transparency in AI decisions, over-reliance replacing human judgment, ensuring equitable access, and accountability for AI errors.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "ethics in ai what are ethics ethical issues concerns considerations morality",
+    "answer": "AI ethics involves: fairness (no bias/discrimination), transparency (explainable decisions), privacy (data protection), accountability (who's responsible), safety (preventing harm), and beneficence (doing good). In education, this means protecting students and ensuring equitable treatment.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "ai ethics ethical concerns issues problems artificial intelligence morality fairness",
+    "answer": "AI ethics covers: fairness/bias prevention, transparency/explainability, privacy/data protection, accountability, safety, and beneficence. In educational AI: avoid bias in assessments, protect student privacy, ensure transparency in grading, maintain human oversight.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "what is bias in ai fairness discrimination prejudice stereotypes algorithmic unfair",
+    "answer": "Bias in AI occurs when models make systematically unfair predictions due to biased training data, flawed algorithms, or reflecting societal prejudices. In education, this could lead to unfair grading, biased recommendations, or disadvantaging certain student groups.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "ethical concerns issues problems with ai artificial intelligence morality fairness bias",
+    "answer": "Key ethical concerns in AI education: algorithmic bias affecting certain student groups unfairly, privacy of student data and learning analytics, lack of transparency in AI decisions, over-reliance replacing human judgment, ensuring equitable access, and accountability for AI errors.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "privacy data protection student information security confidentiality gdpr regulation law compliance",
+    "answer": "Privacy in educational AI involves protecting student data, ensuring secure storage, obtaining informed consent, complying with GDPR/data protection laws, anonymizing data, and transparency. Students should control their data and understand how it's used. GDPR gives rights to access, correct, and delete personal data.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "privacy issues concerns problems data protection security confidential information",
+    "answer": "Privacy in educational AI involves protecting student data, ensuring secure storage, obtaining informed consent, complying with GDPR/data protection laws, anonymizing data, and transparency. Students should control their data and understand how it's used. GDPR gives rights to access, correct, and delete personal data.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "transparency explainability interpretability black box understanding ai decisions explanations",
+    "answer": "AI transparency means making AI decisions understandable and explainable to users. In education, students and teachers should understand why an AI system made a particular recommendation or assessment. This builds trust and enables accountability.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "accountability responsibility ai decisions errors mistakes who is responsible liable",
+    "answer": "Accountability in AI means clearly defining who is responsible when AI systems make errors or harmful decisions. In educational AI, there must be human oversight, clear responsibility chains, and mechanisms to appeal or correct AI decisions.",
+    "topic": "Ethics"
+  },
+  {
+    "question": "tell me joke funny humor laugh entertainment amusing comedy haha",
+    "answer": "I'm focused on helping with educational content! 😊 But here's an NLP joke: Why did the NLP model go to therapy? It had too many issues with context! Now, how can I help with your AI studies?",
+    "topic": "Casual"
+  },
+  {
+    "question": "what is your name who are you identity called bot name chatbot tutor",
+    "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+    "topic": "Casual"
+  },
+  {
+    "question": "are you human person real robot bot ai machine artificial program",
+    "answer": "I'm an AI chatbot, not a human! I use spaCy's NLP library to understand your questions and match them with answers from my knowledge base using semantic similarity. I was created by students for the COMP1827 coursework.",
+    "topic": "Casual"
+  },
+  {
+  "question": "explain tokenization describe tokenization tell me about tokenization",
+  "answer": "Tokenization is the process of breaking text into smaller units called tokens (usually words or subwords). It's the first step in NLP processing. For example, 'Hello world!' becomes ['Hello', 'world', '!'].",
+  "topic": "NLP Concepts"
+},
+{
+    "question": "what is nlp explain natural language processing definition describe",
+    "answer": "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and generate human language. It combines linguistics, computer science, and machine learning to enable machines to process text and speech.",
+    "topic": "NLP Basics"
+  },
+  {
+    "question": "explain ner named entity recognition describe what is ner",
+    "answer": "Named Entity Recognition (NER) identifies and classifies named entities in text (people, organizations, locations, dates, etc.). For example, in 'Steve Jobs founded Apple', it identifies 'Steve Jobs' as a person and 'Apple' as an organization.",
+    "topic": "NLP Concepts"
+  },
+  {
+    "question": "explain spacy describe tell about spacy library framework",
+    "answer": "spaCy is an open-source Python library for advanced NLP. It provides fast and efficient tools for tokenization, part-of-speech tagging, named entity recognition, semantic similarity, and dependency parsing. It's widely used in production systems.",
+    "topic": "Tools"
+  }
+]

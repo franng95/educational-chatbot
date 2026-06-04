@@ -1,0 +1,296 @@
+[
+  {
+    "query": "hello",
+    "response": {
+      "answer": "Hello! \ud83d\udc4b I'm here to help you with COMP1827 - Introduction to Artificial Intelligence. What would you like to know?",
+      "confidence": 1.0,
+      "source": "exact_match",
+      "method": "rule-based"
+    }
+  },
+  {
+    "query": "hi there",
+    "response": {
+      "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+      "confidence": 0.62,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "what is your name who are you identity called bot name chatbot tutor"
+    }
+  },
+  {
+    "query": "good morning",
+    "response": {
+      "answer": "Good day! \ud83d\udc4b How can I help you with your AI studies today?",
+      "confidence": 1.0,
+      "source": "exact_match",
+      "method": "rule-based"
+    }
+  },
+  {
+    "query": "what is NLP?",
+    "response": {
+      "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+      "confidence": 0.79,
+      "source": "Chatbot Info",
+      "method": "semantic_similarity",
+      "matched_question": "how do you work what is your mechanism process algorithm matching similarity"
+    }
+  },
+  {
+    "query": "explain tokenization",
+    "response": {
+      "answer": "I'm not confident about that (55%). Try asking about: AI Basics, Advanced NLP, Chatbot Info, Course Info, Ethics, ITS",
+      "confidence": 0.55,
+      "source": "fallback",
+      "method": "semantic_similarity"
+    }
+  },
+  {
+    "query": "explain semantic similarity",
+    "response": {
+      "answer": "Semantic similarity measures how similar two pieces of text are in meaning (not just words). It uses word embeddings (vector representations) and calculates cosine similarity between vectors. Values range from 0 (completely different) to 1 (identical meaning).",
+      "confidence": 0.87,
+      "source": "NLP Concepts",
+      "method": "semantic_similarity",
+      "matched_question": "explain semantic similarity how it works meaning comparison text"
+    }
+  },
+  {
+    "query": "what are word embeddings?",
+    "response": {
+      "answer": "Word embeddings are numerical representations of words in a high-dimensional vector space. Similar words have similar vectors. spaCy uses pre-trained embeddings (like Word2Vec or GloVe) where each word is represented as a 300-dimension vector.",
+      "confidence": 0.84,
+      "source": "NLP Concepts",
+      "method": "semantic_similarity",
+      "matched_question": "what are word embeddings vectors representations numerical dense"
+    }
+  },
+  {
+    "query": "how does tokenization work?",
+    "response": {
+      "answer": "Tokenization is the process of breaking text into smaller units called tokens (usually words or subwords). It's the first step in NLP processing. For example, 'Hello world!' becomes ['Hello', 'world', '!'].",
+      "confidence": 0.88,
+      "source": "NLP Concepts",
+      "method": "semantic_similarity",
+      "matched_question": "explain tokenization process how does it work breaking text words"
+    }
+  },
+  {
+    "query": "what is an intelligent tutoring system?",
+    "response": {
+      "answer": "An Intelligent Tutoring System (ITS) is an AI-powered educational system that provides personalized instruction and feedback to learners. It adapts to individual student needs, tracks progress, and provides customized learning paths similar to one-on-one human tutoring.",
+      "confidence": 0.88,
+      "source": "ITS",
+      "method": "semantic_similarity",
+      "matched_question": "what is intelligent tutoring system its personalized tutor adaptive learning educational"
+    }
+  },
+  {
+    "query": "components of ITS",
+    "response": {
+      "answer": "ITS typically have four components: 1) Domain Model (subject knowledge to teach), 2) Student Model (tracks learner progress and understanding), 3) Pedagogical Model (teaching strategies and methods), and 4) User Interface (interaction layer).",
+      "confidence": 0.9,
+      "source": "ITS",
+      "method": "semantic_similarity",
+      "matched_question": "components of its architecture structure parts modules domain student pedagogical interface"
+    }
+  },
+  {
+    "query": "personalized learning",
+    "response": {
+      "answer": "Machine Learning (ML) is a subset of AI where systems learn from data without being explicitly programmed. It uses algorithms to identify patterns and make predictions. NLP heavily relies on ML techniques like neural networks and transformers.",
+      "confidence": 0.77,
+      "source": "AI Basics",
+      "method": "semantic_similarity",
+      "matched_question": "what is machine learning ml algorithms training models patterns supervised"
+    }
+  },
+  {
+    "query": "what is spaCy?",
+    "response": {
+      "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+      "confidence": 0.75,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "what is your name who are you identity called bot name chatbot tutor"
+    }
+  },
+  {
+    "query": "tell me about Flask",
+    "response": {
+      "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+      "confidence": 0.8,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "what is your name who are you identity called bot name chatbot tutor"
+    }
+  },
+  {
+    "query": "python programming",
+    "response": {
+      "answer": "Python is a high-level, interpreted programming language widely used in AI, machine learning, and NLP. It's popular for its readability, extensive libraries (like spaCy, NLTK, TensorFlow, scikit-learn), and strong community support.",
+      "confidence": 0.62,
+      "source": "Programming",
+      "method": "semantic_similarity",
+      "matched_question": "what is python programming language code scripting interpreted high-level"
+    }
+  },
+  {
+    "query": "when is the deadline?",
+    "response": {
+      "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+      "confidence": 0.84,
+      "source": "Chatbot Info",
+      "method": "semantic_similarity",
+      "matched_question": "how do you work what is your mechanism process algorithm matching similarity"
+    }
+  },
+  {
+    "query": "what is COMP1827 about?",
+    "response": {
+      "answer": "Tokenization is the process of breaking text into smaller units called tokens (usually words or subwords). It's the first step in NLP processing. For example, 'Hello world!' becomes ['Hello', 'world', '!'].",
+      "confidence": 0.82,
+      "source": "NLP Concepts",
+      "method": "semantic_similarity",
+      "matched_question": "explain tokenization process how does it work breaking text words"
+    }
+  },
+  {
+    "query": "report requirements",
+    "response": {
+      "answer": "Privacy in educational AI involves protecting student data, ensuring secure storage, obtaining informed consent, complying with GDPR/data protection laws, anonymizing data, and transparency. Students should control their data and understand how it's used. GDPR gives rights to access, correct, and delete personal data.",
+      "confidence": 0.77,
+      "source": "Ethics",
+      "method": "semantic_similarity",
+      "matched_question": "privacy data protection student information security confidentiality gdpr regulation law compliance"
+    }
+  },
+  {
+    "query": "what is bias in AI?",
+    "response": {
+      "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+      "confidence": 0.82,
+      "source": "Chatbot Info",
+      "method": "semantic_similarity",
+      "matched_question": "how do you work what is your mechanism process algorithm matching similarity"
+    }
+  },
+  {
+    "query": "ethical concerns",
+    "response": {
+      "answer": "LSEPI stands for Legal, Social, Ethical, and Professional Issues. For educational AI: Legal (data protection, copyright), Social (digital divide, access), Ethical (bias, fairness, privacy), Professional (responsibility, transparency, accountability).",
+      "confidence": 0.82,
+      "source": "Ethics",
+      "method": "semantic_similarity",
+      "matched_question": "what is lsepi ethical legal social professional issues concerns considerations"
+    }
+  },
+  {
+    "query": "privacy issues",
+    "response": {
+      "answer": "Privacy in educational AI involves protecting student data, ensuring secure storage, obtaining informed consent, complying with GDPR/data protection laws, anonymizing data, and transparency. Students should control their data and understand how it's used. GDPR gives rights to access, correct, and delete personal data.",
+      "confidence": 0.87,
+      "source": "Ethics",
+      "method": "semantic_similarity",
+      "matched_question": "privacy issues concerns problems data protection security confidential information"
+    }
+  },
+  {
+    "query": "what is RAG?",
+    "response": {
+      "answer": "I use a hybrid matching system! First, I check for exact pattern matches (like 'hello' or 'bye'). For other questions, spaCy converts your query to a 300-dimensional vector and I calculate cosine similarity with my knowledge base. If confidence is above 60%, I return the best match.",
+      "confidence": 0.81,
+      "source": "Chatbot Info",
+      "method": "semantic_similarity",
+      "matched_question": "how do you work what is your mechanism process algorithm matching similarity"
+    }
+  },
+  {
+    "query": "explain transformers",
+    "response": {
+      "answer": "I'm an AI chatbot, not a human! I use spaCy's NLP library to understand your questions and match them with answers from my knowledge base using semantic similarity. I was created by students for the COMP1827 coursework.",
+      "confidence": 0.74,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "are you human person real robot bot ai machine artificial program"
+    }
+  },
+  {
+    "query": "large language models",
+    "response": {
+      "answer": "Transformers are neural network architectures that use self-attention mechanisms to process sequential data. They can handle long-range dependencies better than traditional RNNs and are the foundation for modern LLMs like GPT and BERT.",
+      "confidence": 0.75,
+      "source": "Advanced NLP",
+      "method": "semantic_similarity",
+      "matched_question": "explain transformers model architecture how they work attention neural networks"
+    }
+  },
+  {
+    "query": "how do you work?",
+    "response": {
+      "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+      "confidence": 0.86,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "what is your name who are you identity called bot name chatbot tutor"
+    }
+  },
+  {
+    "query": "what are your limitations?",
+    "response": {
+      "answer": "I'm an Educational Chatbot created for COMP1827. I don't have a personal name, but you can call me 'AI Tutor' or 'Chatbot'! I'm here to help you learn about AI and NLP concepts.",
+      "confidence": 0.86,
+      "source": "Casual",
+      "method": "semantic_similarity",
+      "matched_question": "what is your name who are you identity called bot name chatbot tutor"
+    }
+  },
+  {
+    "query": "test me",
+    "response": {
+      "answer": "COMP1827 (Introduction to Artificial Intelligence) covers: AI fundamentals, search algorithms, knowledge representation, machine learning, and practical applications. Your coursework involves building an AI application for personalized education.",
+      "confidence": 0.83,
+      "source": "Course Info",
+      "method": "semantic_similarity",
+      "matched_question": "tell me about course comp1827 module class subject syllabus topics"
+    }
+  },
+  {
+    "query": "asdfghjkl",
+    "response": {
+      "answer": "I'm not confident about that (48%). Try asking about: AI Basics, Advanced NLP, Chatbot Info, Course Info, Ethics, ITS",
+      "confidence": 0.48,
+      "source": "fallback",
+      "method": "semantic_similarity"
+    }
+  },
+  {
+    "query": "",
+    "response": {
+      "answer": "Please ask me a question!",
+      "confidence": 0.0,
+      "source": "system",
+      "method": "validation"
+    }
+  },
+  {
+    "query": "rag",
+    "response": {
+      "answer": "RAG (Retrieval-Augmented Generation) combines information retrieval with text generation. It first retrieves relevant documents from a knowledge base, then uses them as context for generating responses. This improves accuracy by grounding answers in actual source material.",
+      "confidence": 0.9,
+      "source": "Advanced NLP",
+      "method": "semantic_similarity",
+      "matched_question": "what is rag retrieval augmented generation grounding context sources documents"
+    }
+  },
+  {
+    "query": "bye",
+    "response": {
+      "answer": "Goodbye! Feel free to come back if you have more questions. Good luck with your studies! \ud83d\udcda",
+      "confidence": 1.0,
+      "source": "exact_match",
+      "method": "rule-based"
+    }
+  }
+]

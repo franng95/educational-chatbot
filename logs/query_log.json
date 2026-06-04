@@ -1,0 +1,751 @@
+[
+  {
+    "original": "hello",
+    "processed": "hello",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.163614"
+  },
+  {
+    "original": "hi",
+    "processed": "hi",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.166195"
+  },
+  {
+    "original": "hey",
+    "processed": "hey",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.166195"
+  },
+  {
+    "original": "good morning",
+    "processed": "good morning",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.166195"
+  },
+  {
+    "original": "good afternoon",
+    "processed": "good afternoon",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.167206"
+  },
+  {
+    "original": "how are you",
+    "processed": "how are you",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.167206"
+  },
+  {
+    "original": "bye",
+    "processed": "bye",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.168205"
+  },
+  {
+    "original": "goodbye",
+    "processed": "goodbye",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.168205"
+  },
+  {
+    "original": "see you",
+    "processed": "see you",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.168205"
+  },
+  {
+    "original": "thanks",
+    "processed": "thanks",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.168205"
+  },
+  {
+    "original": "thank you",
+    "processed": "thank you",
+    "confidence": 1.0,
+    "method": "exact_match",
+    "timestamp": "2025-12-01T13:38:01.169206"
+  },
+  {
+    "original": "what is NLP?",
+    "processed": "what is nlp?",
+    "confidence": 0.7942874844854768,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:01.585701"
+  },
+  {
+    "original": "what is natural language processing?",
+    "processed": "what is natural language processing?",
+    "confidence": 0.9028983446460473,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:01.930510"
+  },
+  {
+    "original": "explain NLP",
+    "processed": "explain nlp",
+    "confidence": 0.7129607637879064,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:02.265540"
+  },
+  {
+    "original": "what is tokenization?",
+    "processed": "what is tokenization?",
+    "confidence": 0.8453566778201964,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:02.638292"
+  },
+  {
+    "original": "explain tokenization",
+    "processed": "explain tokenization",
+    "confidence": 0.9090422978143988,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:03.024629"
+  },
+  {
+    "original": "how does tokenization work?",
+    "processed": "how does tokenization work?",
+    "confidence": 0.8752474078632363,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:03.380978"
+  },
+  {
+    "original": "what are word embeddings?",
+    "processed": "what are word embeddings?",
+    "confidence": 0.83737133078997,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:03.734268"
+  },
+  {
+    "original": "explain word embeddings",
+    "processed": "explain word embeddings",
+    "confidence": 0.689801511881925,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:04.074471"
+  },
+  {
+    "original": "what are vectors?",
+    "processed": "what are vectors?",
+    "confidence": 0.8423790960468966,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:04.414915"
+  },
+  {
+    "original": "how does semantic similarity work?",
+    "processed": "how does semantic similarity work?",
+    "confidence": 0.8684291654698258,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:04.802629"
+  },
+  {
+    "original": "explain semantic similarity",
+    "processed": "explain semantic similarity",
+    "confidence": 0.8688566713858072,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:05.121689"
+  },
+  {
+    "original": "what is semantic similarity?",
+    "processed": "what is semantic similarity?",
+    "confidence": 0.8937301872262029,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:05.436834"
+  },
+  {
+    "original": "what is cosine similarity?",
+    "processed": "what is cosine similarity?",
+    "confidence": 0.867674576601526,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:05.752348"
+  },
+  {
+    "original": "explain cosine similarity",
+    "processed": "explain cosine similarity",
+    "confidence": 0.7986239316302298,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:06.080475"
+  },
+  {
+    "original": "what is lemmatization?",
+    "processed": "what is lemmatization?",
+    "confidence": 0.8134457885566495,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:06.417646"
+  },
+  {
+    "original": "what is POS tagging?",
+    "processed": "what is pos tagging?",
+    "confidence": 0.8019228794113431,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:06.739783"
+  },
+  {
+    "original": "what is named entity recognition?",
+    "processed": "what is named entity recognition?",
+    "confidence": 0.8592642553388659,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:07.097637"
+  },
+  {
+    "original": "explain NER",
+    "processed": "explain ner",
+    "confidence": 0.7678125891141007,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:07.416481"
+  },
+  {
+    "original": "what is an intelligent tutoring system?",
+    "processed": "what is an intelligent tutoring system?",
+    "confidence": 0.8756991653034312,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:07.747154"
+  },
+  {
+    "original": "what is ITS?",
+    "processed": "what is its?",
+    "confidence": 0.8512553835352994,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:08.098629"
+  },
+  {
+    "original": "explain intelligent tutoring systems",
+    "processed": "explain intelligent tutoring systems",
+    "confidence": 0.8447434468745001,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:08.431606"
+  },
+  {
+    "original": "components of ITS",
+    "processed": "components of its",
+    "confidence": 0.9043026133640842,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:08.761498"
+  },
+  {
+    "original": "what are ITS components?",
+    "processed": "what are its components?",
+    "confidence": 0.8512710230082566,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:09.109338"
+  },
+  {
+    "original": "personalized learning",
+    "processed": "personalized learning",
+    "confidence": 0.7710661803715991,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:09.431570"
+  },
+  {
+    "original": "what is personalized learning?",
+    "processed": "what is personalized learning?",
+    "confidence": 0.8602750926027312,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:09.768039"
+  },
+  {
+    "original": "adaptive education",
+    "processed": "adaptive education",
+    "confidence": 0.8482464029300368,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:10.086566"
+  },
+  {
+    "original": "what is spaCy?",
+    "processed": "what is spacy?",
+    "confidence": 0.7540239995514078,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:10.415655"
+  },
+  {
+    "original": "tell me about spaCy",
+    "processed": "tell me about spacy",
+    "confidence": 0.793913358571838,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:10.734133"
+  },
+  {
+    "original": "explain spaCy",
+    "processed": "explain spacy",
+    "confidence": 0.8610418669688461,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:11.063570"
+  },
+  {
+    "original": "what is Flask?",
+    "processed": "what is flask?",
+    "confidence": 0.767846166518858,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:11.385369"
+  },
+  {
+    "original": "tell me about Flask",
+    "processed": "tell me about flask",
+    "confidence": 0.7984673871488807,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:11.706373"
+  },
+  {
+    "original": "what is Python?",
+    "processed": "what is python?",
+    "confidence": 0.8073274636829604,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:12.030137"
+  },
+  {
+    "original": "what is python programming?",
+    "processed": "what is python programming?",
+    "confidence": 0.8450885018085258,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:12.349240"
+  },
+  {
+    "original": "what is an API?",
+    "processed": "what is an api?",
+    "confidence": 0.8203625462482323,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:12.668304"
+  },
+  {
+    "original": "explain API",
+    "processed": "explain api",
+    "confidence": 0.683205474296508,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:13.002457"
+  },
+  {
+    "original": "what is JSON?",
+    "processed": "what is json?",
+    "confidence": 0.7440766411306095,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:13.343661"
+  },
+  {
+    "original": "when is the deadline?",
+    "processed": "when is the deadline?",
+    "confidence": 0.843014609939938,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:13.704766"
+  },
+  {
+    "original": "what is the deadline?",
+    "processed": "what is the deadline?",
+    "confidence": 0.843014609939938,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:14.030975"
+  },
+  {
+    "original": "when is the presentation due?",
+    "processed": "when is the presentation due?",
+    "confidence": 0.8369161134977459,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:14.360063"
+  },
+  {
+    "original": "when is the report due?",
+    "processed": "when is the report due?",
+    "confidence": 0.8497754876892447,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:14.683959"
+  },
+  {
+    "original": "what is COMP1827?",
+    "processed": "what is comp1827?",
+    "confidence": 0.8134457885566495,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:15.012921"
+  },
+  {
+    "original": "what is COMP1827 about?",
+    "processed": "what is comp1827 about?",
+    "confidence": 0.8235145629557882,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:15.335051"
+  },
+  {
+    "original": "tell me about the course",
+    "processed": "tell me about the course",
+    "confidence": 0.8529387091287219,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:15.661252"
+  },
+  {
+    "original": "what should the report include?",
+    "processed": "what should the report include?",
+    "confidence": 0.9064554454388644,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:15.986365"
+  },
+  {
+    "original": "report requirements",
+    "processed": "report requirements",
+    "confidence": 0.7707536781749942,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:16.310844"
+  },
+  {
+    "original": "how many words should the report be?",
+    "processed": "how many words should the report be?",
+    "confidence": 0.8638226977991287,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:16.642762"
+  },
+  {
+    "original": "harvard referencing",
+    "processed": "harvard referencing",
+    "confidence": 0.6204877704401,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:16.961334"
+  },
+  {
+    "original": "what is LSEPI?",
+    "processed": "what is lsepi?",
+    "confidence": 0.8134457885566495,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:17.277121"
+  },
+  {
+    "original": "explain LSEPI",
+    "processed": "explain lsepi",
+    "confidence": 0.8223584575687746,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:17.600165"
+  },
+  {
+    "original": "what is bias in AI?",
+    "processed": "what is bias in ai?",
+    "confidence": 0.8236746568034377,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:17.915251"
+  },
+  {
+    "original": "explain bias in AI",
+    "processed": "explain bias in ai",
+    "confidence": 0.7893227006483888,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:18.235679"
+  },
+  {
+    "original": "what are ethical concerns?",
+    "processed": "what are ethical concerns?",
+    "confidence": 0.8863269809193521,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:18.553560"
+  },
+  {
+    "original": "ethical concerns with AI",
+    "processed": "ethical concerns with ai",
+    "confidence": 0.8680425863479688,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:18.875881"
+  },
+  {
+    "original": "AI ethics",
+    "processed": "ai ethics",
+    "confidence": 0.8253592196922505,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:19.205048"
+  },
+  {
+    "original": "what is privacy in AI?",
+    "processed": "what is privacy in ai?",
+    "confidence": 0.8351924504096846,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:19.535737"
+  },
+  {
+    "original": "privacy issues",
+    "processed": "privacy issues",
+    "confidence": 0.8664496832278338,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:19.858378"
+  },
+  {
+    "original": "data protection",
+    "processed": "data protection",
+    "confidence": 0.6462620844373717,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:20.179948"
+  },
+  {
+    "original": "what is transparency?",
+    "processed": "what is transparency?",
+    "confidence": 0.847833773044107,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:20.487740"
+  },
+  {
+    "original": "accountability in AI",
+    "processed": "accountability in ai",
+    "confidence": 0.8589837975844358,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:20.809228"
+  },
+  {
+    "original": "what is RAG?",
+    "processed": "what is rag?",
+    "confidence": 0.812777727794449,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:21.137260"
+  },
+  {
+    "original": "explain RAG",
+    "processed": "explain rag",
+    "confidence": 0.6982878832614943,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:21.449952"
+  },
+  {
+    "original": "retrieval augmented generation",
+    "processed": "retrieval augmented generation",
+    "confidence": 0.8311834518160885,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:21.760934"
+  },
+  {
+    "original": "what is an LLM?",
+    "processed": "what is an llm?",
+    "confidence": 0.7538759747393051,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:22.071985"
+  },
+  {
+    "original": "what are large language models?",
+    "processed": "what are large language models?",
+    "confidence": 0.8426279414398614,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:22.412121"
+  },
+  {
+    "original": "what is GPT?",
+    "processed": "what is gpt?",
+    "confidence": 0.7543606424585264,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:22.736682"
+  },
+  {
+    "original": "what is BERT?",
+    "processed": "what is bert?",
+    "confidence": 0.8062638152397336,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:23.054346"
+  },
+  {
+    "original": "what are transformers?",
+    "processed": "what are transformers?",
+    "confidence": 0.8552960085542292,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:23.405191"
+  },
+  {
+    "original": "explain transformers",
+    "processed": "explain transformers",
+    "confidence": 0.7427985747405544,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:23.731703"
+  },
+  {
+    "original": "what is machine learning?",
+    "processed": "what is machine learning?",
+    "confidence": 0.8753931309583248,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:24.054484"
+  },
+  {
+    "original": "what is artificial intelligence?",
+    "processed": "what is artificial intelligence?",
+    "confidence": 0.8926073971648332,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:24.371207"
+  },
+  {
+    "original": "what is deep learning?",
+    "processed": "what is deep learning?",
+    "confidence": 0.8368792759096921,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:24.698602"
+  },
+  {
+    "original": "how do you work?",
+    "processed": "how do you work?",
+    "confidence": 0.8573747270297699,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:25.052135"
+  },
+  {
+    "original": "how does this chatbot work?",
+    "processed": "how does this chatbot work?",
+    "confidence": 0.8598753602352905,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:25.386390"
+  },
+  {
+    "original": "explain how you work",
+    "processed": "explain how you work",
+    "confidence": 0.8760262037175769,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:25.711651"
+  },
+  {
+    "original": "what are your limitations?",
+    "processed": "what are your limitations?",
+    "confidence": 0.864661545718381,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:26.040343"
+  },
+  {
+    "original": "what are the limitations?",
+    "processed": "what are the limitations?",
+    "confidence": 0.8408179484316873,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:26.355957"
+  },
+  {
+    "original": "how was this chatbot created?",
+    "processed": "how was this chatbot created?",
+    "confidence": 0.823717322365886,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:26.676217"
+  },
+  {
+    "original": "who created you?",
+    "processed": "who created you?",
+    "confidence": 0.8343718295412579,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:26.995377"
+  },
+  {
+    "original": "are you human?",
+    "processed": "are you human?",
+    "confidence": 0.8637900655012121,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:27.307825"
+  },
+  {
+    "original": "what is your name?",
+    "processed": "what is your name?",
+    "confidence": 0.9022492368041896,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:27.634671"
+  },
+  {
+    "original": "nlp",
+    "processed": "what is natural language processing",
+    "confidence": 0.8983537510564213,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:27.951286"
+  },
+  {
+    "original": "ai",
+    "processed": "what is artificial intelligence",
+    "confidence": 0.887985344991393,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:28.262188"
+  },
+  {
+    "original": "ml",
+    "processed": "what is machine learning",
+    "confidence": 0.9172621242220343,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:28.580106"
+  },
+  {
+    "original": "its",
+    "processed": "what is intelligent tutoring system",
+    "confidence": 0.9065194163091652,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:28.912785"
+  },
+  {
+    "original": "rag",
+    "processed": "what is retrieval augmented generation",
+    "confidence": 0.8971840955523258,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:29.230890"
+  },
+  {
+    "original": "llm",
+    "processed": "what is large language model",
+    "confidence": 0.8452072506397973,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:29.549069"
+  },
+  {
+    "original": "api",
+    "processed": "what is an api application programming interface",
+    "confidence": 0.9461275226647021,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:29.878525"
+  },
+  {
+    "original": "json",
+    "processed": "what is json data format",
+    "confidence": 0.840319494163334,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:30.203362"
+  },
+  {
+    "original": "python",
+    "processed": "what is python programming language",
+    "confidence": 0.8815120258878546,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:30.535726"
+  },
+  {
+    "original": "flask",
+    "processed": "what is flask web framework",
+    "confidence": 0.8230698567009577,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:30.862262"
+  },
+  {
+    "original": "spacy",
+    "processed": "what is spacy library",
+    "confidence": 0.8053256052505348,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:31.205137"
+  },
+  {
+    "original": "asdfghjkl",
+    "processed": "asdfghjkl",
+    "confidence": 0.4823002240111377,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:31.534589"
+  },
+  {
+    "original": "qwertyuiop",
+    "processed": "qwertyuiop",
+    "confidence": 0.08721584422352881,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:31.894021"
+  },
+  {
+    "original": "zxcvbnm",
+    "processed": "zxcvbnm",
+    "confidence": 0.0,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:32.226756"
+  },
+  {
+    "original": "!@#$%^&*()",
+    "processed": "!@#$%^&*()",
+    "confidence": 0.38884646121207167,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:32.551497"
+  },
+  {
+    "original": "12345678",
+    "processed": "12345678",
+    "confidence": 0.0,
+    "method": "semantic",
+    "timestamp": "2025-12-01T13:38:32.889038"
+  }
+]
