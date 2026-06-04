@@ -1,5 +1,4 @@
 # Intelligent Tutoring System - Educational Chatbot
-**COMP1827 Coursework - Francisco Navarro Gil (fn2235y)**
 
 ## Quick Start
 ```bash
